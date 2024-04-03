@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/bildfem">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Användarnamn"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id = "@+id/usernameinput"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lösenord"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id = "@+id/passwordinput"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"/>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Logga in"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/black"
+        />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Registrera"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>

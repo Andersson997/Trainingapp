@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mittschema"
+        android:title="Mitt schema"
+        android:icon="@drawable/schema"/>
+    <item
+        android:id="@+id/home"
+        android:title="Hem"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/profil"
+        android:title="Profil"
+        android:icon="@drawable/back"/>
+
+</menu>
